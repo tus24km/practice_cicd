@@ -2,7 +2,7 @@ name: Manual
 on:
   workflow_dispatch:
     inputs:
-      inputs:
+      greeting:
         type: string
         default: Hello
         required: true
